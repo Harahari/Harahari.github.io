@@ -212,7 +212,7 @@
                 <img src="/api/placeholder/250/250" alt="Akhil Krishnan" class="profile-image">
                 <h1>Akhil Krishnan</h1>
                 <p class="profile-subtitle">Bachelor's of Technology| Electrical and Electronics Engineering </p>
-                <p class="profile-subtitle">Stanford University | Human-Centered AI Lab</p>
+                <p class="profile-subtitle">Manipal University, Jaipur | Human-Centered AI Lab</p>
             </div>
             <nav>
                 <a href="#about" aria-label="About section">About</a>
@@ -234,8 +234,8 @@
         <section id="research" class="card">
             <h2>Research Interests</h2>
             <ul>
-                <li>3D Scene Understanding</li>
-                <li>Visual Reasoning</li>
+                <li> Anti-Control of Chaos</li>
+                <li>Water</li>
                 <li>Interpretable Machine Learning</li>
                 <li>Human-Centered AI</li>
                 <li>Ethical AI Development</li>
