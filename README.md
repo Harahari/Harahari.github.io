@@ -209,9 +209,9 @@
     <header>
         <div class="container">
             <div class="profile">
-                <img src="/api/placeholder/250/250" alt="Dr. Emily Rodriguez" class="profile-image">
-                <h1>Dr. Emily Rodriguez</h1>
-                <p class="profile-subtitle">PhD Candidate | Computer Vision & Machine Learning</p>
+                <img src="/api/placeholder/250/250" alt="Akhil Krishnan" class="profile-image">
+                <h1>Akhil Krishnan</h1>
+                <p class="profile-subtitle">Bachelor's of Technology| Electrical and Electronics Engineering </p>
                 <p class="profile-subtitle">Stanford University | Human-Centered AI Lab</p>
             </div>
             <nav>
