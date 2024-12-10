@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -306,8 +306,8 @@
     </main>
 
     <footer>
-        <p>© 2024 Dr. Emily Rodriguez. All rights reserved.</p>
-        <p>Personal Academic Portfolio | Built with ❤️ in India, CA</p>
+        <p>© 2024 Akhil Krishnan. All rights reserved.</p>
+        <p>Personal Academic Portfolio | Built with ❤️ in India</p>
     </footer>
 </body>
 </html>
