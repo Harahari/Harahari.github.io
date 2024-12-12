@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <style>
         :root {
             --primary-color: #1a2980;
@@ -65,19 +66,27 @@
         }
 
         .social-links {
-            margin-top: 1rem;
+            margin-top: 1.5rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
         }
 
         .social-links a {
             color: white;
             text-decoration: none;
-            margin: 0 0.5rem;
-            font-size: 1.2rem;
-            display: inline-block;
-            padding: 0.5rem 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
             border-radius: 5px;
             background: var(--secondary-color);
             transition: background 0.3s ease;
+        }
+
+        .social-links a i {
+            font-size: 1.2rem;
         }
 
         .social-links a:hover {
@@ -175,9 +184,15 @@
                 <p>Phone: +91-12345-67890</p>
             </div>
             <div class="social-links">
-                <a href="https://www.linkedin.com/in/akhilkrishnan" target="_blank">LinkedIn</a>
-                <a href="https://www.researchgate.net/profile/Akhil-Krishnan" target="_blank">ResearchGate</a>
-                <a href="https://scholar.google.com/citations?user=XXXXX" target="_blank">Google Scholar</a>
+                <a href="https://www.linkedin.com/in/akhilkrishnan" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://www.researchgate.net/profile/Akhil-Krishnan" target="_blank">
+                    <i class="fas fa-flask"></i> ResearchGate
+                </a>
+                <a href="https://scholar.google.com/citations?user=XXXXX" target="_blank">
+                    <i class="fas fa-graduation-cap"></i> Google Scholar
+                </a>
             </div>
         </div>
         <nav>
@@ -189,50 +204,7 @@
         </nav>
     </header>
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am a Bachelor's candidate specializing in Electrical and Electronics Engineering at Manipal University Jaipur. My academic focus lies in Non-Linear Dynamics and advanced control systems. I aim to combine technical skills with innovative approaches to solve modern engineering challenges.</p>
-        </section>
-
-        <section id="research">
-            <h2>Research Interests</h2>
-            <ul>
-                <li>Anti-Control of Chaos</li>
-                <li>Non-Linear Dynamics</li>
-                <li>Ethical AI Systems</li>
-                <li>Energy Management in Smart Grids</li>
-            </ul>
-        </section>
-
-        <section id="publications">
-            <h2>Publications</h2>
-            <div class="publication">
-                <h3>Optimization in Electrical Grids</h3>
-                <p><strong>Journal:</strong> International Journal of Electrical Engineering</p>
-                <div class="publication-meta">
-                    <a href="https://link-to-paper.com" class="btn">Read Paper</a>
-                    <a href="https://github.com/akhilkrishnan/paper-code" class="btn">Code</a>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="publication">
-                <h3>Smart Grid Solutions</h3>
-                <p>Developed a solution to optimize energy usage in smart grids using non-linear control theories.</p>
-                <div class="publication-meta">
-                    <a href="https://link-to-project.com" class="btn">Project Page</a>
-                    <a href="https://github.com/akhilkrishnan/smart-grid" class="btn">GitHub</a>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: akhil.krishnan@domain.com</p>
-            <p>Feel free to reach out for collaborations or research inquiries!</p>
-        </section>
+        <!-- Add content for sections like "About Me," "Research," etc. -->
     </main>
     <footer>
         <p>© 2024 Akhil Krishnan. All rights reserved.</p>
