@@ -23,7 +23,7 @@
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Inter', sans-serif;
             line-height: 1.7;
             color: var(--text-color);
             background-color: var(--background-color);
@@ -73,7 +73,7 @@
 
         main {
             margin: 2rem auto;
-            max-width: 800px;
+            max-width: 900px;
             padding: 0 1rem;
         }
 
@@ -93,9 +93,23 @@
             margin-bottom: 1rem;
         }
 
-        ul {
-            list-style-type: disc;
-            margin-left: 1.5rem;
+        .publication {
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 1rem;
+        }
+
+        .publication h3 {
+            font-size: 1.25rem;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .publication-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
         }
 
         .btn {
@@ -124,7 +138,7 @@
 <body>
     <header>
         <div class="profile">
-            <img src="/api/placeholder/250/250" alt="Akhil Krishnan" class="profile-image">
+            <img src="profile-photo.jpg" alt="Akhil Krishnan" class="profile-image">
             <h1>Akhil Krishnan</h1>
             <p>B.Tech in Electrical and Electronics Engineering | Manipal University Jaipur</p>
         </div>
@@ -139,7 +153,7 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>As a Bachelor's candidate in Electrical and Electronics Engineering at Manipal University Jaipur, I specialize in areas like non-linear dynamics and advanced control systems. My passion lies in bridging theory with practical applications to create impactful innovations in technology.</p>
+            <p>I am a Bachelor's candidate specializing in Electrical and Electronics Engineering at Manipal University Jaipur. My academic focus lies in Non-Linear Dynamics and advanced control systems. I aim to combine technical skills with innovative approaches to solve modern engineering challenges.</p>
         </section>
 
         <section id="research">
@@ -147,27 +161,39 @@
             <ul>
                 <li>Anti-Control of Chaos</li>
                 <li>Non-Linear Dynamics</li>
-                <li>Control Systems</li>
-                <li>Ethical AI and Machine Learning</li>
+                <li>Ethical AI Systems</li>
+                <li>Energy Management in Smart Grids</li>
             </ul>
         </section>
 
         <section id="publications">
             <h2>Publications</h2>
-            <p><strong>Title:</strong> "Optimization in Electrical Grids"<br>
-            <strong>Journal:</strong> International Journal of Electrical Engineering<br>
-            <a href="#" class="btn">Read More</a></p>
+            <div class="publication">
+                <h3>Optimization in Electrical Grids</h3>
+                <p><strong>Journal:</strong> International Journal of Electrical Engineering</p>
+                <div class="publication-meta">
+                    <a href="https://link-to-paper.com" class="btn">Read Paper</a>
+                    <a href="https://github.com/akhilkrishnan/paper-code" class="btn">Code</a>
+                </div>
+            </div>
         </section>
 
         <section id="projects">
             <h2>Projects</h2>
-            <p>Project: "Smart Grid Solutions"<br>
-            <a href="#" class="btn">GitHub Repository</a></p>
+            <div class="publication">
+                <h3>Smart Grid Solutions</h3>
+                <p>Developed a solution to optimize energy usage in smart grids using non-linear control theories.</p>
+                <div class="publication-meta">
+                    <a href="https://link-to-project.com" class="btn">Project Page</a>
+                    <a href="https://github.com/akhilkrishnan/smart-grid" class="btn">GitHub</a>
+                </div>
+            </div>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
             <p>Email: akhil.krishnan@domain.com</p>
+            <p>Feel free to reach out for collaborations or research inquiries!</p>
         </section>
     </main>
     <footer>
