@@ -1,308 +1,314 @@
-import React, { useState } from 'react';
-import { Home, User, Briefcase, Code, Mail } from 'lucide-react';
-import { motion } from 'framer-motion';
 
-// Main App Component
-const PortfolioWebsite = () => {
-  const [activeSection, setActiveSection] = useState('home');
 
-  const sections = {
-    home: <HomeSection />,
-    about: <AboutSection />,
-    projects: <ProjectsSection />,
-    skills: <SkillsSection />,
-    contact: <ContactSection />
-  };
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhil Krishnan- Electrical and Electronics Engineering </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a2980;
+            --secondary-color: #26d0ce;
+            --text-color: #2c3e50;
+            --background-color: #f4f7f6;
+            --card-background: #ffffff;
+        }
 
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white font-sans">
-      <Navigation 
-        activeSection={activeSection} 
-        setActiveSection={setActiveSection} 
-      />
-      
-      <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
-        className="container mx-auto px-4 py-16"
-      >
-        {sections[activeSection]}
-      </motion.div>
-      
-      <Footer />
-    </div>
-  );
-};
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-// Navigation Component
-const Navigation = ({ activeSection, setActiveSection }) => {
-  const navItems = [
-    { icon: Home, name: 'home' },
-    { icon: User, name: 'about' },
-    { icon: Briefcase, name: 'projects' },
-    { icon: Code, name: 'skills' },
-    { icon: Mail, name: 'contact' }
-  ];
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
 
-  return (
-    <nav className="fixed bottom-8 left-1/2 transform -translate-x-1/2 z-50">
-      <div className="bg-white/20 backdrop-blur-lg rounded-full p-2 flex space-x-4">
-        {navItems.map((item) => (
-          <button
-            key={item.name}
-            onClick={() => setActiveSection(item.name)}
-            className={`p-3 rounded-full transition-all duration-300 ${
-              activeSection === item.name 
-                ? 'bg-blue-600 text-white' 
-                : 'hover:bg-white/20 text-gray-300'
-            }`}
-          >
-            <item.icon size={24} />
-          </button>
-        ))}
-      </div>
-    </nav>
-  );
-};
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
 
-// Home Section
-const HomeSection = () => (
-  <div className="min-h-screen flex items-center justify-center text-center">
-    <motion.div 
-      initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8 }}
-    >
-      <h1 className="text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
-        Your Name
-      </h1>
-      <p className="text-2xl text-gray-300 mb-8">
-        Software Engineer | Web Developer | Creative Technologist
-      </p>
-      <div className="flex justify-center space-x-4">
-        <a 
-          href="#" 
-          className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full transition duration-300"
-        >
-          Download CV
-        </a>
-        <a 
-          href="#contact" 
-          className="border border-white/30 text-white px-6 py-3 rounded-full hover:bg-white/10 transition duration-300"
-        >
-          Contact Me
-        </a>
-      </div>
-    </motion.div>
-  </div>
-);
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 4rem 0;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
 
-// About Section
-const AboutSection = () => (
-  <div className="grid md:grid-cols-2 gap-8 items-center">
-    <motion.div
-      initial={{ x: -50, opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      transition={{ duration: 0.6 }}
-    >
-      <img 
-        src="/api/placeholder/400/400" 
-        alt="Profile" 
-        className="rounded-2xl shadow-2xl"
-      />
-    </motion.div>
-    <motion.div
-      initial={{ x: 50, opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      transition={{ duration: 0.6 }}
-    >
-      <h2 className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
-        About Me
-      </h2>
-      <p className="text-gray-300 mb-4">
-        I'm a passionate software engineer with expertise in web technologies, 
-        machine learning, and creative coding. My mission is to build innovative 
-        solutions that make a positive impact.
-      </p>
-      <div className="grid md:grid-cols-2 gap-4 mt-6">
-        <InfoCard icon="🎓" title="Education" description="Computer Science, Tech University" />
-        <InfoCard icon="💼" title="Experience" description="5+ Years in Software Development" />
-      </div>
-    </motion.div>
-  </div>
-);
+        .profile {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
 
-// Projects Section
-const ProjectsSection = () => {
-  const projects = [
-    { 
-      name: "AI Chatbot", 
-      description: "Advanced conversational AI with natural language processing",
-      tech: ["React", "Python", "Machine Learning"],
-      image: "/api/placeholder/300/200"
-    },
-    { 
-      name: "E-commerce Platform", 
-      description: "Scalable online marketplace with microservices architecture",
-      tech: ["Node.js", "Docker", "Kubernetes"],
-      image: "/api/placeholder/300/200"
-    }
-  ];
+        .profile-image {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            margin-bottom: 1.5rem;
+        }
 
-  return (
-    <div>
-      <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
-        My Projects
-      </h2>
-      <div className="grid md:grid-cols-2 gap-8">
-        {projects.map((project, index) => (
-          <motion.div
-            key={index}
-            initial={{ scale: 0.9, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.5, delay: index * 0.2 }}
-            className="bg-white/10 rounded-2xl overflow-hidden shadow-2xl"
-          >
-            <img 
-              src={project.image} 
-              alt={project.name} 
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-6">
-              <h3 className="text-2xl font-bold mb-3">{project.name}</h3>
-              <p className="text-gray-300 mb-4">{project.description}</p>
-              <div className="flex flex-wrap gap-2">
-                {project.tech.map((tech, i) => (
-                  <span 
-                    key={i} 
-                    className="bg-blue-600/20 text-blue-400 px-3 py-1 rounded-full text-sm"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
+        .profile h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .profile-subtitle {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: transform 0.3s ease;
+            position: relative;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background-color: white;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        nav a:hover::after {
+            transform: scaleX(1);
+        }
+
+        .card {
+            background: var(--card-background);
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        section {
+            margin-top: 3rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .publication {
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 1rem;
+        }
+
+        .publication h3 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .publication-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .btn-link {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            margin-right: 0.5rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-link:hover {
+            background-color: var(--primary-color);
+        }
+
+        footer {
+            background: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            color: white;
+            font-size: 1.5rem;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: var(--secondary-color);
+        }
+
+        @media (max-width: 768px) {
+            header {
+                clip-path: none;
+                padding: 2rem 0;
+            }
+
+            .profile h1 {
+                font-size: 2.5rem;
+            }
+
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .publication-meta {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile">
+                <img src="/api/placeholder/250/250" alt="Akhil Krishnan" class="profile-image">
+                <h1>Akhil Krishnan</h1>
+                <p class="profile-subtitle">Bachelor's of Technology| Electrical and Electronics Engineering </p>
+                <p class="profile-subtitle">Manipal University, Jaipur | Non-Linear Dynamics </p>
             </div>
-          </motion.div>
-        ))}
-      </div>
-    </div>
-  );
-};
+            <nav>
+                <a href="#about" aria-label="About section">About</a>
+                <a href="#research" aria-label="Research section">Research</a>
+                <a href="#publications" aria-label="Publications section">Publications</a>
+                <a href="#projects" aria-label="Projects section">Projects</a>
+                <a href="#contact" aria-label="Contact section">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-// Skills Section
-const SkillsSection = () => {
-  const skillCategories = [
-    { 
-      name: "Frontend", 
-      skills: ["React", "Vue", "Tailwind CSS", "Next.js"] 
-    },
-    { 
-      name: "Backend", 
-      skills: ["Node.js", "Python", "Django", "Express"] 
-    },
-    { 
-      name: "Tools", 
-      skills: ["Git", "Docker", "AWS", "Kubernetes"] 
-    }
-  ];
+    <main class="container">
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <p>I'm a Bachelors of Technology candidate in Electrical and Electronics Engineering at Manipal University, specializing in computer vision and machine learning. My research focuses on developing advanced AI systems that can understand and interpret complex visual scenes with human-like reasoning.</p>
+            <p>My work bridges the gap between perception and cognition, aiming to create more interpretable and ethical AI technologies.</p>
+        </section>
 
-  return (
-    <div>
-      <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
-        My Skills
-      </h2>
-      <div className="grid md:grid-cols-3 gap-8">
-        {skillCategories.map((category, index) => (
-          <motion.div
-            key={category.name}
-            initial={{ y: 50, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.5, delay: index * 0.2 }}
-            className="bg-white/10 p-6 rounded-2xl"
-          >
-            <h3 className="text-2xl font-bold mb-4 text-blue-400">
-              {category.name}
-            </h3>
-            <div className="flex flex-wrap gap-2">
-              {category.skills.map((skill, i) => (
-                <span 
-                  key={i} 
-                  className="bg-blue-600/20 text-blue-300 px-3 py-1 rounded-full text-sm"
-                >
-                  {skill}
-                </span>
-              ))}
+        <section id="research" class="card">
+            <h2>Research Interests</h2>
+            <ul>
+                <li> Anti-Control of Chaos</li>
+                <li>Water</li>
+                <li>Interpretable Machine Learning</li>
+                <li>Human-Centered AI</li>
+                <li>Ethical AI Development</li>
+            </ul>
+        </section>
+
+        <section id="publications">
+            <h2>Selected Publications</h2>
+            <div class="card publication">
+                <div class="publication-meta">
+                    <div>
+                        <h3>Towards Interpretable 3D Scene Reconstruction</h3>
+                        <p>Rodriguez, E., Chen, L., & Kumar, S.</p>
+                        <p><em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024</em></p>
+                    </div>
+                    <div>
+                        <a href="#" class="btn-link">Paper</a>
+                        <a href="#" class="btn-link">Code</a>
+                    </div>
+                </div>
             </div>
-          </motion.div>
-        ))}
-      </div>
-    </div>
-  );
-};
+            <!-- More publications can be added here -->
+        </section>
 
-// Contact Section
-const ContactSection = () => (
-  <div className="max-w-lg mx-auto">
-    <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">
-      Contact Me
-    </h2>
-    <motion.form
-      initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-      className="bg-white/10 p-8 rounded-2xl"
-    >
-      <div className="mb-4">
-        <label className="block text-gray-300 mb-2">Name</label>
-        <input 
-          type="text" 
-          className="w-full bg-white/10 border border-white/20 rounded-lg p-3 focus:outline-none focus:border-blue-500"
-        />
-      </div>
-      <div className="mb-4">
-        <label className="block text-gray-300 mb-2">Email</label>
-        <input 
-          type="email" 
-          className="w-full bg-white/10 border border-white/20 rounded-lg p-3 focus:outline-none focus:border-blue-500"
-        />
-      </div>
-      <div className="mb-4">
-        <label className="block text-gray-300 mb-2">Message</label>
-        <textarea 
-          rows={4} 
-          className="w-full bg-white/10 border border-white/20 rounded-lg p-3 focus:outline-none focus:border-blue-500"
-        />
-      </div>
-      <button 
-        type="submit" 
-        className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg transition duration-300"
-      >
-        Send Message
-      </button>
-    </motion.form>
-  </div>
-);
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="card publication">
+                <h3>Visual Reasoning Transformer</h3>
+                <p>An advanced neural network architecture that combines computer vision and natural language processing to enable more nuanced scene understanding.</p>
+                <div class="publication-meta">
+                    <div></div>
+                    <div>
+                        <a href="#" class="btn-link">Project Page</a>
+                        <a href="#" class="btn-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-// Footer Component
-const Footer = () => (
-  <footer className="bg-white/10 py-6 text-center">
-    <div className="flex justify-center space-x-6 mb-4">
-      <a href="#" className="text-gray-300 hover:text-white">GitHub</a>
-      <a href="#" className="text-gray-300 hover:text-white">LinkedIn</a>
-      <a href="#" className="text-gray-300 hover:text-white">Twitter</a>
-    </div>
-    <p className="text-gray-400">© 2024 Your Name. All Rights Reserved.</p>
-  </footer>
-);
+        <section id="contact" class="card">
+            <h2>Contact</h2>
+            <p>Email: emily.rodriguez@stanford.edu</p>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                </a>
+                <a href="#" aria-label="LinkedIn Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="#" aria-label="Google Scholar Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M5.242 13.769L0 9.5 12 2l12 7.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7.5 7.5 0 1 0 7.5 7.5c0-4.136-3.364-7.5-7.5-7.5z"/>
+                    </svg>
+                </a>
+                <a href="#" aria-label="Twitter Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 14.01-7.496 14.01-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                    </svg>
+                </a>
+            </div>
+        </section>
+    </main>
 
-// Utility Component
-const InfoCard = ({ icon, title, description }) => (
-  <div className="bg-white/10 p-4 rounded-lg">
-    <div className="text-3xl mb-2">{icon}</div>
-    <h3 className="font-bold text-lg">{title}</h3>
-    <p className="text-gray-400 text-sm">{description}</p>
-  </div>
-);
-
-export default PortfolioWebsite;
+    <footer>
+        <p>© 2024 Akhil Krishnan. All rights reserved.</p>
+        <p>Personal Academic Portfolio | Built with ❤️ in India</p>
+    </footer>
+</body>
+</html>
