@@ -55,6 +55,35 @@
             opacity: 0.85;
         }
 
+        .contact-info {
+            margin: 1rem 0;
+        }
+
+        .contact-info p {
+            font-size: 1rem;
+            margin: 0.5rem 0;
+        }
+
+        .social-links {
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.5rem;
+            font-size: 1.2rem;
+            display: inline-block;
+            padding: 0.5rem 0.75rem;
+            border-radius: 5px;
+            background: var(--secondary-color);
+            transition: background 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background: var(--primary-color);
+        }
+
         nav {
             margin-top: 1.5rem;
         }
@@ -141,6 +170,15 @@
             <img src="profile-photo.jpg" alt="Akhil Krishnan" class="profile-image">
             <h1>Akhil Krishnan</h1>
             <p>B.Tech in Electrical and Electronics Engineering | Manipal University Jaipur</p>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:akhil.krishnan@domain.com" style="color: white; text-decoration: underline;">akhil.krishnan@domain.com</a></p>
+                <p>Phone: +91-12345-67890</p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/akhilkrishnan" target="_blank">LinkedIn</a>
+                <a href="https://www.researchgate.net/profile/Akhil-Krishnan" target="_blank">ResearchGate</a>
+                <a href="https://scholar.google.com/citations?user=XXXXX" target="_blank">Google Scholar</a>
+            </div>
         </div>
         <nav>
             <a href="#about">About</a>
