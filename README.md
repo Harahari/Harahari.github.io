@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akhil Krishnan - Electrical and Electronics Engineer</title>
+    <title>Akhil Krishnan - Electrical and Electronics Engineering</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -122,26 +122,38 @@
             margin-bottom: 1rem;
         }
 
-        .list-item {
+        .item {
             margin-bottom: 1.5rem;
             border-left: 4px solid var(--secondary-color);
             padding-left: 1rem;
         }
 
-        .list-item h3 {
+        .item h3 {
             font-size: 1.25rem;
             color: var(--primary-color);
             margin-bottom: 0.5rem;
         }
 
-        .list-item a {
-            color: var(--primary-color);
+        .item-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            margin-top: 0.5rem;
+            color: white;
+            background: var(--primary-color);
             text-decoration: none;
+            border-radius: 5px;
             font-size: 0.9rem;
         }
 
-        .list-item a:hover {
-            text-decoration: underline;
+        .btn:hover {
+            background: var(--secondary-color);
         }
 
         footer {
@@ -181,11 +193,11 @@
         </div>
         <nav>
             <a href="#about">About</a>
-            <a href="#research">Research</a>
+            <a href="#special-skills">Special Skills</a>
+            <a href="#scholastic-accolades">Accolades</a>
+            <a href="#fellowships">Fellowships & Grants</a>
             <a href="#publications">Publications</a>
             <a href="#projects">Projects</a>
-            <a href="#skills">Special Skills</a>
-            <a href="#scholastic">Scholastic Accolades</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -194,41 +206,46 @@
             <h2>About Me</h2>
             <p>I am an aspiring engineer passionate about Electrical and Electronics Engineering. With a strong academic foundation from Manipal University Jaipur, I am focused on research and innovative projects.</p>
         </section>
-        <section id="research">
-            <h2>Research</h2>
-            <p>My research focuses on topics like renewable energy, power systems, and embedded systems. I aim to contribute to sustainable technologies.</p>
+        <section id="special-skills">
+            <h2>Special Skills</h2>
+            <p>Below are some of the certifications I have earned:</p>
+            <div class="item">
+                <h3>Skill Name</h3>
+                <a href="https://example.com/certification" target="_blank" class="btn">View Certification</a>
+            </div>
+        </section>
+        <section id="scholastic-accolades">
+            <h2>Scholastic Accolades</h2>
+            <div class="item">
+                <h3>Title of Award</h3>
+                <p>Description of the award.</p>
+                <a href="https://example.com/accolade" target="_blank" class="btn">Learn More</a>
+            </div>
+        </section>
+        <section id="fellowships">
+            <h2>Fellowships & Grants</h2>
+            <div class="item">
+                <h3>Grant Title</h3>
+                <p>Details of the grant or fellowship.</p>
+                <a href="https://example.com/grant-details" target="_blank" class="btn">Read More</a>
+            </div>
         </section>
         <section id="publications">
             <h2>Publications</h2>
-            <div class="list-item">
+            <div class="item">
                 <h3>Title of Research Paper</h3>
                 <p>Published in: Journal Name, 2023</p>
-                <a href="https://example.com/research-paper" target="_blank">Read Paper</a> | 
-                <a href="https://github.com/akhilkrishnan/research-code" target="_blank">View Code</a>
+                <a href="https://example.com/research-paper" target="_blank" class="btn">Read Paper</a>
+                <a href="https://github.com/akhilkrishnan/research-code" target="_blank" class="btn">View Code</a>
             </div>
         </section>
         <section id="projects">
             <h2>Projects</h2>
-            <div class="list-item">
+            <div class="item">
                 <h3>Project Title</h3>
                 <p>Brief description of the project.</p>
-                <a href="https://example.com/project" target="_blank">View Project</a> | 
-                <a href="https://github.com/akhilkrishnan/project-code" target="_blank">View Code</a>
-            </div>
-        </section>
-        <section id="skills">
-            <h2>Special Skills</h2>
-            <div class="list-item">
-                <h3>Skill Name</h3>
-                <a href="https://example.com/certification" target="_blank">View Certification</a>
-            </div>
-        </section>
-        <section id="scholastic">
-            <h2>Scholastic Accolades, Fellowships, and Grants</h2>
-            <div class="list-item">
-                <h3>Grant or Fellowship Title</h3>
-                <p>Description of the accolade or grant.</p>
-                <a href="https://example.com/award-details" target="_blank">Read More</a>
+                <a href="https://example.com/project" target="_blank" class="btn">View Project</a>
+                <a href="https://github.com/akhilkrishnan/project-code" target="_blank" class="btn">View Code</a>
             </div>
         </section>
         <section id="contact">
