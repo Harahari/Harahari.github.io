@@ -56,15 +56,6 @@
             opacity: 0.85;
         }
 
-        .contact-info {
-            margin: 1rem 0;
-        }
-
-        .contact-info p {
-            font-size: 1rem;
-            margin: 0.5rem 0;
-        }
-
         .social-links {
             margin-top: 1.5rem;
             display: flex;
@@ -131,19 +122,19 @@
             margin-bottom: 1rem;
         }
 
-        .publication {
+        .publication, .project {
             margin-bottom: 1.5rem;
             border-left: 4px solid var(--secondary-color);
             padding-left: 1rem;
         }
 
-        .publication h3 {
+        .publication h3, .project h3 {
             font-size: 1.25rem;
             color: var(--primary-color);
             margin-bottom: 0.5rem;
         }
 
-        .publication-meta {
+        .publication-meta, .project-meta {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -171,6 +162,15 @@
             background: var(--primary-color);
             color: white;
         }
+
+        footer .contact-info {
+            color: white;
+        }
+
+        footer .contact-info a {
+            color: #26d0ce;
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -179,10 +179,6 @@
             <img src="profile-photo.jpg" alt="Akhil Krishnan" class="profile-image">
             <h1>Akhil Krishnan</h1>
             <p>B.Tech in Electrical and Electronics Engineering | Manipal University Jaipur</p>
-            <div class="contact-info">
-                <p>Email: <a href="mailto:akhil.krishnan@domain.com" style="color: white; text-decoration: underline;">akhil.krishnan@domain.com</a></p>
-                <p>Phone: +91-12345-67890</p>
-            </div>
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/akhilkrishnan" target="_blank">
                     <i class="fab fa-linkedin"></i> LinkedIn
@@ -204,7 +200,37 @@
         </nav>
     </header>
     <main>
-        <!-- Add content for sections like "About Me," "Research," etc. -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am an aspiring engineer passionate about Electrical and Electronics Engineering. With a strong academic foundation from Manipal University Jaipur, I am focused on research and innovative projects.</p>
+        </section>
+        <section id="research">
+            <h2>Research</h2>
+            <p>My research focuses on topics like renewable energy, power systems, and embedded systems. I aim to contribute to sustainable technologies.</p>
+        </section>
+        <section id="publications">
+            <h2>Publications</h2>
+            <div class="publication">
+                <h3>Title of Research Paper</h3>
+                <p>Published in: Journal Name, 2023</p>
+                <a href="https://example.com/research-paper" target="_blank" class="btn">Read Paper</a>
+                <a href="https://github.com/akhilkrishnan/research-code" target="_blank" class="btn">View Code</a>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project Title</h3>
+                <p>Brief description of the project.</p>
+                <a href="https://example.com/project" target="_blank" class="btn">View Project</a>
+                <a href="https://github.com/akhilkrishnan/project-code" target="_blank" class="btn">View Code</a>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:akhil.krishnan@domain.com">akhil.krishnan@domain.com</a></p>
+            <p>Phone: +91-12345-67890</p>
+        </section>
     </main>
     <footer>
         <p>© 2024 Akhil Krishnan. All rights reserved.</p>
