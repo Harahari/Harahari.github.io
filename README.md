@@ -242,12 +242,14 @@ allowance, housing allowance, language training, project allowance & emergency a
                 <a href="https://ieeexplore.ieee.org/document/8993310" target="_blank" class="btn">Read Paper</a>
                 <a href="https://github.com/akhilkrishnan/research-code" target="_blank" class="btn">View Code</a>
             </div>
+            <div class="item">
             <h3>A Comparative Study on Intelligent & Adaptive Control Techniques on a Nonlinear Inverted Pendulum Cart Mechanism </h3>
                 <p>Published in: IEEE, 2021</p>
                 <a href="https://ieeexplore.ieee.org/document/9596243" target="_blank" class="btn">Read Paper</a>
                 <a href="https://github.com/akhilkrishnan/research-code" target="_blank" class="btn">View Code</a>
             </div>
-<h3Desalination of Marine water using Machine Learning Methods</h3>
+            <div class="item">
+<h3>Desalination of Marine water using Machine Learning Methods</h3>
                 <p>Published in: IEEE, 2021</p>
                 <a href="https://ieeexplore.ieee.org/document/9596489" target="_blank" class="btn">Read Paper</a>
                 <a href="https://github.com/akhilkrishnan/research-code" target="_blank" class="btn">View Code</a>
