@@ -217,8 +217,8 @@
         <section id="scholastic-accolades">
             <h2>Scholastic Accolades</h2>
             <div class="item">
-                <h3>Title of Award</h3>
-                <p>Description of the award.</p>
+                <h3>Summa Cum Laude</h3>
+                <p>Awarded Summa Cum Laude with a Grade Point Average (GPA) of 10/10 in the eighth semester of Engineering</p>
                 <a href="https://example.com/accolade" target="_blank" class="btn">Learn More</a>
             </div>
         </section>
