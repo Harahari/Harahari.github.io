@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+%%<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -230,16 +230,16 @@
 
 with a grant intake rate of 0.152%. Received INR 3,07,556.5 ($ 4,335) in emoluments which includes travel
 
-allowance, housing allowance, language training, project allowance & emergency allowance. .</p>
+allowance, housing allowance, language training, project allowance & emergency allowance. </p>
                 <a href="https://example.com/grant-details" target="_blank" class="btn">Read More</a>
             </div>
         </section>
         <section id="publications">
             <h2>Publications</h2>
             <div class="item">
-                <h3>Title of Research Paper</h3>
-                <p>Published in: Journal Name, 2023</p>
-                <a href="https://example.com/research-paper" target="_blank" class="btn">Read Paper</a>
+                <h3>Non-linear Dynamical Analysis of an Inverted Pendulum Cart Mechanism using Bifurcation Method</h3>
+                <p>Published in: IEEE, 2019</p>
+                <a href="https://ieeexplore.ieee.org/document/8993310" target="_blank" class="btn">Read Paper</a>
                 <a href="https://github.com/akhilkrishnan/research-code" target="_blank" class="btn">View Code</a>
             </div>
         </section>
