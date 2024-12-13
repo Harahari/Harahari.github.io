@@ -225,8 +225,12 @@
         <section id="fellowships">
             <h2>Fellowships & Grants</h2>
             <div class="item">
-                <h3>Grant Title</h3>
-                <p>Details of the grant or fellowship.</p>
+                <h3>State Bank of India, Youth for India </h3>
+                Accepted 1 of 76 successful candidates from 50,000 globally,
+
+with a grant intake rate of 0.152%. Received INR 3,07,556.5 ($ 4,335) in emoluments which includes travel
+
+allowance, housing allowance, language training, project allowance & emergency allowance. .</p>
                 <a href="https://example.com/grant-details" target="_blank" class="btn">Read More</a>
             </div>
         </section>
