@@ -210,7 +210,7 @@
             <h2>Special Skills</h2>
             <p>Below are some of the certifications I have earned:</p>
             <div class="item">
-                <h3>Skill Name</h3>
+                <h3>TRIZ Level-1 </h3>
                 <a href="https://example.com/certification" target="_blank" class="btn">View Certification</a>
             </div>
         </section>
@@ -229,8 +229,7 @@
                 Accepted 1 of 76 successful candidates from 50,000 globally,
 
 with a grant intake rate of 0.152%. Received INR 3,07,556.5 ($ 4,335) in emoluments which includes travel
-
-allowance, housing allowance, language training, project allowance & emergency allowance. </p>
+allowance, housing allowance, language training, project allowance & emergency allowance.</p>
                 <a href="https://example.com/grant-details" target="_blank" class="btn">Read More</a>
             </div>
         </section>
