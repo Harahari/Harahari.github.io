@@ -229,6 +229,13 @@
             <p>Accepted 1 of 76 successful candidates from 50,000 globally, with a grant intake rate of 0.152%. Received INR 3,07,556.5 ($ 4,335) in emoluments which includes travel allowance, housing allowance, language training, project allowance & emergency allowance.</p>
                 <a href="https://example.com/grant-details" target="_blank" class="btn">Read More</a>
             </div>
+<div class="item">
+<h3>Manipal University Research Grant</h3> 
+Received sum of INR 15,162 ($ 227.43) as a financial aid for presenting
+research paper on Nonlinear Dynamics at an International Conference conducted by IEEE. The fund included
+circumnavigation, registration fee & other expenses.
+<a href="https://example.com/grant-details" target="_blank" class="btn">Read More</a>
+            </div>
         </section>
         <section id="publications">
             <h2>Publications</h2>
