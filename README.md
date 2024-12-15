@@ -231,12 +231,23 @@
             </div>
 <div class="item">
 <h3>Manipal University Research Grant</h3> 
-Received sum of INR 15,162 ($ 227.43) as a financial aid for presenting
+<p>Received sum of INR 15,162 ($ 227.43) as a financial aid for presenting
 research paper on Nonlinear Dynamics at an International Conference conducted by IEEE. The fund included
-circumnavigation, registration fee & other expenses.
+circumnavigation, registration fee & other expenses.</p>
 <a href="https://example.com/grant-details" target="_blank" class="btn">Read More</a>
             </div>
-        </section>
+            <h3>Global Digital Corps Field Ops Fellowship</h3> 
+ <p>At time of a national emergency, the certificate holder has a basic
+understanding of disaster management and field operations and can be a valuable volunteer for the benefit of
+the society.</p>
+    <a href="https://example.com/grant-details" target="_blank" class="btn">Read More</a>
+            </div>
+    <h3>Rajasthan Administrative Service Grants </h3>
+   <p>Received sum of INR 30,000 for the Installation of RO plant in theproject VASUDHA: The Lifeblood of Rural Communities.</p>
+<a href="https://example.com/grant-details" target="_blank" class="btn">Read More</a>
+            </div>
+<div class="item">
+            </section>
         <section id="publications">
             <h2>Publications</h2>
             <div class="item">
