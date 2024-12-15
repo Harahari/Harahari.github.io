@@ -229,24 +229,25 @@
             <p>Accepted 1 of 76 successful candidates from 50,000 globally, with a grant intake rate of 0.152%. Received INR 3,07,556.5 ($ 4,335) in emoluments which includes travel allowance, housing allowance, language training, project allowance & emergency allowance.</p>
                 <a href="https://example.com/grant-details" target="_blank" class="btn">Read More</a>
             </div>
-<div class="item">
-<h3>Manipal University Research Grant</h3> 
-<p>Received sum of INR 15,162 ($ 227.43) as a financial aid for presenting
-research paper on Nonlinear Dynamics at an International Conference conducted by IEEE. The fund included
-circumnavigation, registration fee & other expenses.</p>
-<a href="https://example.com/grant-details" target="_blank" class="btn">Read More</a>
-            </div>
+            <div class="item">
             <h3>Global Digital Corps Field Ops Fellowship</h3> 
  <p>At time of a national emergency, the certificate holder has a basic
 understanding of disaster management and field operations and can be a valuable volunteer for the benefit of
 the society.</p>
     <a href="https://example.com/grant-details" target="_blank" class="btn">Read More</a>
             </div>
+<div class="item">
+<h3>Manipal University Research Grant</h3> 
+<p>Received sum of INR 15,162 ($ 227.43) as a financial aid for presenting
+research paper on Nonlinear Dynamics at an International Conference conducted by IEEE. The fund included
+circumnavigation, registration fee & other expenses.</p>
+<a href="https://example.com/grant-details" target="_blank" class="btn">Read More</a>
+</div>
+            <div class="item">
     <h3>Rajasthan Administrative Service Grants </h3>
    <p>Received sum of INR 30,000 for the Installation of RO plant in theproject VASUDHA: The Lifeblood of Rural Communities.</p>
 <a href="https://example.com/grant-details" target="_blank" class="btn">Read More</a>
             </div>
-<div class="item">
             </section>
         <section id="publications">
             <h2>Publications</h2>
