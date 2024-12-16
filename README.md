@@ -274,7 +274,7 @@ circumnavigation, registration fee & other expenses.</p>
             <h2>Projects</h2>
             <div class="item">
                 <h3>VASUDHA: The Lifeblood of Rural Community</h3>
-                <p>**Innovative Leadership in Rural Water Management: Transforming Communities Through Empowerment and Sustainability**  
+                <p>Innovative Leadership in Rural Water Management: Transforming Communities Through Empowerment and Sustainability 
 
 Empowered local governance by forming a Village Water Committee and providing training on RO plant maintenance and water quality testing, fostering sustainable leadership. Conducted engaging community training sessions, including puppetry, to educate 260+ villagers and students on clean drinking water practices, while training 5 healthcare workers on the health risks of unprotected water sources.  
 
