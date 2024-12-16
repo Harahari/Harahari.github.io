@@ -274,15 +274,17 @@ circumnavigation, registration fee & other expenses.</p>
             <h2>Projects</h2>
             <div class="item">
                 <h3>VASUDHA: The Lifeblood of Rural Community</h3>
-                <p>Innovative Leadership in Rural Water Management: Transforming Communities Through Empowerment and Sustainability 
+                <p>.  In a transformative rural development project, a strategically positioned Reverse Osmosis (RO) plant now provides 1,200 liters of clean drinking water daily, directly benefiting 400+ rural residents and a school across the target community. The initiative demonstrates addressing critical drinking water challenges through an innovative and holistic approach.
 
-Empowered local governance by forming a Village Water Committee and providing training on RO plant maintenance and water quality testing, fostering sustainable leadership. Conducted engaging community training sessions, including puppetry, to educate 260+ villagers and students on clean drinking water practices, while training 5 healthcare workers on the health risks of unprotected water sources.  
+The project distinguished itself through a unique blend of technological innovation and cultural sensitivity, securing robust community engagement. By establishing a Village Water Committee and conducting extensive training programs, the initiative fostered local ownership and capacity building. Specifically, the team educated 260+ community members through interactive puppetry workshops, trained 5 healthcare workers on water-related health risks, and achieved 100% local leadership transition within just 10 months.
 
-Secured a government grant of INR 30,000 through strategic financial stewardship and effectively managed a project budget of INR 81,760, achieving a 10% cost reduction by sourcing materials locally. Pioneered a holistic water management system integrating purification, wastewater treatment, and groundwater conservation, addressing RO wastewater disposal challenges with Aloe vera-inspired phytoremediation.  
+Financial stewardship was a critical component of the project's success. With a strategic budget management approach, effectively handled INR 81,760, strategically sourcing materials from within the village to reduce costs by 10%. Additionally, a catalytic government grant of INR 30,000 was secured, further amplifying the project's impact and sustainability.
 
-Successfully implemented an RO plant delivering 1,200 liters of clean drinking water daily to 400+ rural beneficiaries. Facilitated a rapid transition to a community-owned model within 10 months, ensuring 100% local leadership. Established a maintenance fund managed through a post office account by two committee members and implemented a scalable monitoring system for multi-village expansion.  
+An innovative solution to wastewater disposal was implemented using Aloe vera-inspired phytoremediation techniques. This approach not only addressed environmental concerns but also demonstrated a sophisticated understanding of integrated water management, creating a comprehensive system for water purification, wastewater treatment, and groundwater conservation.
 
-This initiative balanced innovation, tradition, and community empowerment to bridge immediate needs with long-term sustainability. It achieved measurable health improvements, created self-reliant governance structures, and laid the foundation for generational impact in rural communities..</p>
+The long-term sustainability of the project is ensured through the establishment of a dedicated maintenance fund managed via a post office account and overseen by the Village Water Committee. By bridging micro and macro developmental gaps, this initiative promises generational benefits, setting a scalable model for rural water infrastructure that can be replicated across multiple villages.
+
+Ultimately, the project exemplifies a nuanced, holistic approach to rural development—one that respects local traditions, leverages technological solutions, and empowers communities to take charge of their critical infrastructure and health outcomes. </p>
                 <a href="https://example.com/project" target="_blank" class="btn">View Project</a>
                 <a href="https://github.com/akhilkrishnan/project-code" target="_blank" class="btn">View Code</a>
             </div>
