@@ -273,8 +273,16 @@ circumnavigation, registration fee & other expenses.</p>
         <section id="projects">
             <h2>Projects</h2>
             <div class="item">
-                <h3>Project Title</h3>
-                <p>Brief description of the project.</p>
+                <h3>VASUDHA: The Lifeblood of Rural Community</h3>
+                <p>**Innovative Leadership in Rural Water Management: Transforming Communities Through Empowerment and Sustainability**  
+
+Empowered local governance by forming a Village Water Committee and providing training on RO plant maintenance and water quality testing, fostering sustainable leadership. Conducted engaging community training sessions, including puppetry, to educate 260+ villagers and students on clean drinking water practices, while training 5 healthcare workers on the health risks of unprotected water sources.  
+
+Secured a government grant of INR 30,000 through strategic financial stewardship and effectively managed a project budget of INR 81,760, achieving a 10% cost reduction by sourcing materials locally. Pioneered a holistic water management system integrating purification, wastewater treatment, and groundwater conservation, addressing RO wastewater disposal challenges with Aloe vera-inspired phytoremediation.  
+
+Successfully implemented an RO plant delivering 1,200 liters of clean drinking water daily to 400+ rural beneficiaries. Facilitated a rapid transition to a community-owned model within 10 months, ensuring 100% local leadership. Established a maintenance fund managed through a post office account by two committee members and implemented a scalable monitoring system for multi-village expansion.  
+
+This initiative balanced innovation, tradition, and community empowerment to bridge immediate needs with long-term sustainability. It achieved measurable health improvements, created self-reliant governance structures, and laid the foundation for generational impact in rural communities..</p>
                 <a href="https://example.com/project" target="_blank" class="btn">View Project</a>
                 <a href="https://github.com/akhilkrishnan/project-code" target="_blank" class="btn">View Code</a>
             </div>
