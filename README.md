@@ -272,6 +272,7 @@ circumnavigation, registration fee & other expenses.</p>
         </section>
         <section id="projects">
             <h2>Projects</h2>
+             <meta charset="UTF-8">
             <div class="item">
                 <h3>VASUDHA: The Lifeblood of Rural Community</h3>
                 <section class="project-overview">
