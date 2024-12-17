@@ -293,7 +293,7 @@ circumnavigation, registration fee & other expenses.</p>
 <p>Ultimately, the project exemplifies a nuanced, holistic approach to rural development—one that respects local traditions, leverages technological solutions, and empowers communities to take charge of their critical infrastructure and health outcomes. </p>
                 <a href="https://example.com/project" target="_blank" class="btn">View Project</a>
                 <a href="https://github.com/akhilkrishnan/project-code" target="_blank" class="btn">View Code</a>
-                </div>
+             </div>
                 </section>
         <section id="contact">
           <h2>Contact</h2>
