@@ -274,9 +274,9 @@ circumnavigation, registration fee & other expenses.</p>
             <h2>Projects</h2>
              <meta charset="UTF-8">
             <div class="item">
-                <h3>VASUDHA: The Lifeblood of Rural Community</h3>
+                <h2>VASUDHA: The Lifeblood of Rural Community</h2>
                 <section class="project-overview">
-                 <h4>Project Description:</h4>
+                 <h2>Project Description:</h2>
             <p>VASUDHA stands for <em>Village And School Underpin by providing Safe and clean drinking water for Health Amelioration in the community via Technological Intervention</em></p>
                     </section>
                 <section class="project-summary">
