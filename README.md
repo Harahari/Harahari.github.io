@@ -297,6 +297,7 @@ circumnavigation, registration fee & other expenses.</p>
                 </div>
    </section>
         <section id="contact">
+            <div class="item">
             <h2>Contact</h2>
             <p>Email: <a href="mailto:akhil.krishnan@domain.com">akhil.krishnan@domain.com</a></p>
             <p>Phone: +91-12345-67890</p>
