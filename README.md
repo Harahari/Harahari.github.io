@@ -295,6 +295,7 @@ circumnavigation, registration fee & other expenses.</p>
                 <a href="https://example.com/project" target="_blank" class="btn">View Project</a>
                 <a href="https://github.com/akhilkrishnan/project-code" target="_blank" class="btn">View Code</a>
                 </div>
+                </section>
         <section id="contact">
           <h2>Contact</h2>
             <p>Email: <a href="mailto:akhil.krishnan@domain.com">akhil.krishnan@domain.com</a></p>
