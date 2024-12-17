@@ -278,21 +278,14 @@ circumnavigation, registration fee & other expenses.</p>
                     <h3>Project Description:</h3>
                     <p>VASUDHA stands for <em>Village And School Underpin by providing Safe and clean drinking water for Health Amelioration in the community via Technological Intervention</em></p>
                 </section>
-                
                 <section class="project-summary">
                     <h3>Project Summary:</h3>
                     <p>In a transformative rural development project, a strategically positioned Reverse Osmosis (RO) plant now provides 1,200 liters of clean drinking water daily, directly benefiting 400+ rural residents and a school across the target community. The initiative demonstrates addressing critical drinking water challenges through an innovative and holistic approach.</p>
-
-                    <p>The project distinguished itself through a unique blend of technological innovation and cultural sensitivity, securing robust community engagement. By establishing a Village Water Committee and conducting extensive training programs, the initiative fostered local ownership and capacity building. Specifically, the team educated 260+ community members through interactive puppetry workshops, trained 5 healthcare workers on water-related health risks, and achieved 100% local leadership transition within just 10 months.</p>
-
-                    <p>Financial stewardship was a critical component of the project's success. With a strategic budget management approach, effectively handled INR 81,760, strategically sourcing materials from within the village to reduce costs by 10%. Additionally, a catalytic government grant of INR 30,000 was secured, further amplifying the project's impact and sustainability.</p>
-
-                    <p>An innovative solution to wastewater disposal was implemented using Aloe vera-inspired phytoremediation techniques. This approach not only addressed environmental concerns but also demonstrated a sophisticated understanding of integrated water management, creating a comprehensive system for water purification, wastewater treatment, and groundwater conservation.</p>
-
+  <p>The project distinguished itself through a unique blend of technological innovation and cultural sensitivity, securing robust community engagement. By establishing a Village Water Committee and conducting extensive training programs, the initiative fostered local ownership and capacity building. Specifically, the team educated 260+ community members through interactive puppetry workshops, trained 5 healthcare workers on water-related health risks, and achieved 100% local leadership transition within just 10 months.</p>
+ <p>Financial stewardship was a critical component of the project's success. With a strategic budget management approach, effectively handled INR 81,760, strategically sourcing materials from within the village to reduce costs by 10%. Additionally, a catalytic government grant of INR 30,000 was secured, further amplifying the project's impact and sustainability.</p>
+<p>An innovative solution to wastewater disposal was implemented using Aloe vera-inspired phytoremediation techniques. This approach not only addressed environmental concerns but also demonstrated a sophisticated understanding of integrated water management, creating a comprehensive system for water purification, wastewater treatment, and groundwater conservation.</p>
                     <p>The long-term sustainability of the project is ensured through the establishment of a dedicated maintenance fund managed via a post office account and overseen by the Village Water Committee. By bridging micro and macro developmental gaps, this initiative promises generational benefits, setting a scalable model for rural water infrastructure that can be replicated across multiple villages.</p>
-
-                    <p>Ultimately, the project exemplifies a nuanced, holistic approach to rural development—one that respects local traditions, leverages technological solutions, and empowers communities to take charge of their critical infrastructure and health outcomes.</p>
-                    
+<p>Ultimately, the project exemplifies a nuanced, holistic approach to rural development—one that respects local traditions, leverages technological solutions, and empowers communities to take charge of their critical infrastructure and health outcomes.</p>
                     <div class="project-links">
                         <a href="https://example.com/project" target="_blank" class="btn">View Project</a>
                         <a href="https://github.com/akhilkrishnan/project-code" target="_blank" class="btn">View Code</a>
@@ -300,8 +293,7 @@ circumnavigation, registration fee & other expenses.</p>
                 </section>
             </div>
         </section>
-
-        <section id="contact">
+<section id="contact">
             <h2>Contact</h2>
             <div class="contact-info">
                 <p>Email: <a href="mailto:akhil.krishnan@domain.com">akhil.krishnan@domain.com</a></p>
