@@ -280,7 +280,7 @@ circumnavigation, registration fee & other expenses.</p>
             <p>VASUDHA stands for <em>Village And School Underpin by providing Safe and clean drinking water for Health Amelioration in the community via Technological Intervention</em></p>
                     </section>
                 <section class="project-summary">
-            <h4>Project Summary:</h4>
+            <h2>Project Summary:</h2>
                 <p> In a transformative rural development project, a strategically positioned Reverse Osmosis (RO) plant now provides 1,200 liters of clean drinking water daily, directly benefiting 400+ rural residents and a school across the target community. The initiative demonstrates addressing critical drinking water challenges through an innovative and holistic approach.</p>
 
 <p>The project distinguished itself through a unique blend of technological innovation and cultural sensitivity, securing robust community engagement. By establishing a Village Water Committee and conducting extensive training programs, the initiative fostered local ownership and capacity building. Specifically, the team educated 260+ community members through interactive puppetry workshops, trained 5 healthcare workers on water-related health risks, and achieved 100% local leadership transition within just 10 months.</p>
