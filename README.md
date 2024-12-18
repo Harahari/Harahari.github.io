@@ -16,27 +16,23 @@
             --background-color: #f4f7f6;
             --card-background: #ffffff;
         }
-
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
         body {
             font-family: 'Inter', sans-serif;
             line-height: 1.7;
             color: var(--text-color);
             background-color: var(--background-color);
         }
-
         header {
             background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
             color: white;
             padding: 3rem 0;
             text-align: center;
         }
-
         .profile-image {
             width: 180px;
             height: 180px;
@@ -44,25 +40,21 @@
             margin: 0 auto 1rem;
             border: 4px solid white;
         }
-
         .profile h1 {
             font-size: 2.5rem;
             font-weight: 700;
             margin-bottom: 0.5rem;
         }
-
         .profile p {
             font-size: 1rem;
             opacity: 0.85;
         }
-
         .social-links {
             margin-top: 1.5rem;
             display: flex;
             justify-content: center;
             gap: 1rem;
         }
-
         .social-links a {
             color: white;
             text-decoration: none;
@@ -75,19 +67,15 @@
             background: var(--secondary-color);
             transition: background 0.3s ease;
         }
-
         .social-links a i {
             font-size: 1.2rem;
         }
-
         .social-links a:hover {
             background: var(--primary-color);
         }
-
         nav {
             margin-top: 1.5rem;
         }
-
         nav a {
             color: white;
             text-decoration: none;
@@ -95,17 +83,14 @@
             font-size: 1rem;
             transition: color 0.3s ease;
         }
-
         nav a:hover {
             color: var(--secondary-color);
         }
-
         main {
             margin: 2rem auto;
             max-width: 900px;
             padding: 0 1rem;
         }
-
         section {
             margin-bottom: 2rem;
             background: var(--card-background);
@@ -113,7 +98,6 @@
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
             padding: 1.5rem;
         }
-
         section h2 {
             color: var(--primary-color);
             font-size: 1.5rem;
@@ -121,26 +105,22 @@
             padding-bottom: 0.5rem;
             margin-bottom: 1rem;
         }
-
         .item {
             margin-bottom: 1.5rem;
             border-left: 4px solid var(--secondary-color);
             padding-left: 1rem;
         }
-
         .item h3 {
             font-size: 1.25rem;
             color: var(--primary-color);
             margin-bottom: 0.5rem;
         }
-
         .item-meta {
             display: flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
         }
-
         .btn {
             display: inline-block;
             padding: 0.5rem 1rem;
@@ -151,22 +131,18 @@
             border-radius: 5px;
             font-size: 0.9rem;
         }
-
         .btn:hover {
             background: var(--secondary-color);
         }
-
         footer {
             text-align: center;
             padding: 1rem 0;
             background: var(--primary-color);
             color: white;
         }
-
         footer .contact-info {
             color: white;
         }
-
         footer .contact-info a {
             color: #26d0ce;
             text-decoration: underline;
