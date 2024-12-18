@@ -196,8 +196,12 @@
                 <h3>Summa Cum Laude</h3>
                 <p>Awarded Summa Cum Laude with a Grade Point Average (GPA) of 10/10 in the eighth semester of Engineering</p>
                 <a href="https://tinyurl.com/49tbb37a" target="_blank" class="btn">View Certification</a>
+                 <h3>Top 1% out of 358 students</h3>
+                <p>Awarded with A+ grade in 7 different subjects such as switch gears and protection,
+communication systems, power system operation and control, flexible AC transmission system, linear control
+systems, Bioinformatics for Engineers and sustainable development courses for exceptional performance.</p>
             </div>
-        </section>
+       </section>
         <section id="fellowships">
             <h2>Fellowships & Grants</h2>
             <div class="item">
