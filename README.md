@@ -301,8 +301,7 @@ circumnavigation, registration fee & other expenses.</p>
             </div>
         </section>
         --------------
-        </section>
-    </main>
+   </main>
     <footer>
         <p>© 2024 Akhil Krishnan. All rights reserved.</p>
         <p>Personal Academic Portfolio | Built with ❤️ in India</p>
