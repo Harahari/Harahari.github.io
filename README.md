@@ -195,7 +195,7 @@
             <div class="item">
                 <h3>Summa Cum Laude</h3>
                 <p>Awarded Summa Cum Laude with a Grade Point Average (GPA) of 10/10 in the eighth semester of Engineering</p>
-                <a href="https://tinyurl.com/49tbb37a" target="_blank" class="btn">View Certificate</a>
+                <a href="https://tinyurl.com/49tbb37a" target="_blank" class="btn">View Certification</a>
             </div>
         </section>
         <section id="fellowships">
@@ -249,7 +249,7 @@ circumnavigation, registration fee & other expenses.</p>
         <section id="projects">
             <h2>Projects</h2>
             <div class="item">
-                <h2>VASUDHA: The Lifeblood of Rural Community</h2>
+                <h2>VASUDHA: The Lifeblood of Rural Communities</h2>
                 <section class="project-overview">
                     <h3>Project Description:</h3>
                     <p>VASUDHA stands for <em>Village And School Underpin by providing Safe and clean drinking water for Health Amelioration in the community via Technological Intervention</em></p>
