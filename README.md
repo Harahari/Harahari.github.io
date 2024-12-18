@@ -195,7 +195,7 @@
             <div class="item">
                 <h3>Summa Cum Laude</h3>
                 <p>Awarded Summa Cum Laude with a Grade Point Average (GPA) of 10/10 in the eighth semester of Engineering</p>
-                <a href="https://example.com/accolade" target="_blank" class="btn">Learn More</a>
+                <a href="https://tinyurl.com/49tbb37a" target="_blank" class="btn">View Certificate</a>
             </div>
         </section>
         <section id="fellowships">
