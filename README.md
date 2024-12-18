@@ -300,3 +300,12 @@ circumnavigation, registration fee & other expenses.</p>
                 <p>Phone: +91-12345-67890</p>
             </div>
         </section>
+        --------------
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Akhil Krishnan. All rights reserved.</p>
+        <p>Personal Academic Portfolio | Built with ❤️ in India</p>
+    </footer>
+</body>
+</html>
