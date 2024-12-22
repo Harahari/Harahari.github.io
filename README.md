@@ -270,8 +270,8 @@ circumnavigation, registration fee & other expenses.</p>
 <p>Ultimately, the project exemplifies a nuanced, holistic approach to rural development—one that respects local traditions, leverages technological solutions, and empowers communities to take charge of their critical infrastructure and health outcomes.</p>
                     <div class="project-links">
                         <a href="https://example.com/project" target="_blank" class="btn">View Project</a>
-                        <a href="https://github.com/akhilkrishnan/project-code" target="_blank" class="btn">View Code</a>
-                        <a href="https://mega.nz/file/Z3Z1DAbD#DljdHC-U0nu5R2DYb6a05oA17I0sL21xWAoMatlvDVU" target="_blank" class="btn">View News paper Articles - PDF</a>
+                        <a href="https://github.com/akhilkrishnan/project-code" target="_blank" class="btn">View Source Code</a>
+                        <a href="https://mega.nz/file/Z3Z1DAbD#DljdHC-U0nu5R2DYb6a05oA17I0sL21xWAoMatlvDVU" target="_blank" class="btn">View Press Releases - PDF</a>
                     </div>
                 </section>
             </div>
