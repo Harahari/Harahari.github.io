@@ -232,7 +232,7 @@ circumnavigation, registration fee & other expenses.</p>
             </div>
             </section>
         <section id="publications">
-            <h1>Publications</h1>
+            <h2>Publications</h2>
             <div class="item">
                 <h3>Non-linear Dynamical Analysis of an Inverted Pendulum Cart Mechanism using Bifurcation Method</h3>
                 <p>Published in: IEEE, 2019</p>
