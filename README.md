@@ -36,6 +36,7 @@
         .profile-image {
             width: 200px;
             height: 200px;
+            object-fit: cover;
             border-radius: 50%;
             margin: 0 auto 1rem;
             border: 4px solid white;
