@@ -253,15 +253,15 @@ circumnavigation, registration fee & other expenses.</p>
             </div> 
         </section>
         <section id="projects">
-            <h1>Technology for Social Impact Projects</h1>
+            <h2>Technology for Social Impact Projects</h2>
             <div class="item">
-                <h2>VASUDHA: The Lifeblood of Rural Communities</h2>
+                <h3>VASUDHA: The Lifeblood of Rural Communities</h3>
                 <section class="project-overview">
-                    <h3>Project Description:</h3>
+                    <h4>Project Description:</h4>
                     <p>VASUDHA stands for <em>Village And School Underpin by providing Safe and clean drinking water for Health Amelioration in the community via Technological Intervention</em></p>
                 </section>
                 <section class="project-summary">
-                    <h3>Project Summary:</h3>
+                    <h4>Project Summary:</h4>
                     <p>In a transformative rural development project, a strategically positioned Reverse Osmosis (RO) plant now provides 1,200 liters of clean drinking water daily, directly benefiting 400+ rural residents and a school across the target community. The initiative demonstrates addressing critical drinking water challenges through an innovative and holistic approach.</p>
   <p>The project distinguished itself through a unique blend of technological innovation and cultural sensitivity, securing robust community engagement. By establishing a Village Water Committee and conducting extensive training programs, the initiative fostered local ownership and capacity building. Specifically, the team educated 260+ community members through interactive puppetry workshops, trained 5 healthcare workers on water-related health risks, and achieved 100% local leadership transition within just 10 months.</p>
  <p>Financial stewardship was a critical component of the project's success. With a strategic budget management approach, effectively handled INR 81,760, strategically sourcing materials from within the village to reduce costs by 10%. Additionally, a catalytic government grant of INR 30,000 was secured, further amplifying the project's impact and sustainability.</p>
