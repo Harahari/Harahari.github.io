@@ -34,8 +34,8 @@
             text-align: center;
         }
         .profile-image {
-            width: 180px;
-            height: 180px;
+            width: 200px;
+            height: 200px;
             border-radius: 50%;
             margin: 0 auto 1rem;
             border: 4px solid white;
@@ -232,7 +232,7 @@ circumnavigation, registration fee & other expenses.</p>
             </div>
             </section>
         <section id="publications">
-            <h2>Publications</h2>
+            <h1>Publications</h1>
             <div class="item">
                 <h3>Non-linear Dynamical Analysis of an Inverted Pendulum Cart Mechanism using Bifurcation Method</h3>
                 <p>Published in: IEEE, 2019</p>
@@ -253,7 +253,7 @@ circumnavigation, registration fee & other expenses.</p>
             </div> 
         </section>
         <section id="projects">
-            <h2>Projects</h2>
+            <h1>Technology for Social Impact Projects</h1>
             <div class="item">
                 <h2>VASUDHA: The Lifeblood of Rural Communities</h2>
                 <section class="project-overview">
@@ -283,7 +283,7 @@ circumnavigation, registration fee & other expenses.</p>
                 <p>Phone: +91-12345-67890</p>
             </div>
         </section>
-        --------------
+      
    </main>
     <footer>
         <p>© 2024 Akhil Krishnan. All rights reserved.</p>
