@@ -273,6 +273,7 @@ circumnavigation, registration fee & other expenses.</p>
                         <a href="https://example.com/project" target="_blank" class="btn">View Project</a>
                         <a href="https://github.com/akhilkrishnan/project-code" target="_blank" class="btn">View Source Code</a>
                         <a href="https://mega.nz/file/Z3Z1DAbD#DljdHC-U0nu5R2DYb6a05oA17I0sL21xWAoMatlvDVU" target="_blank" class="btn">View Press Releases - PDF</a>
+                        <a href="https://www.instagram.com/p/Cy-WsaRybUn/?utm_source=ig_web_copy_link"> Social Media plateform - The Barefoot College (Instagram page)</a>
                     </div>
                 </section>
             </div>
