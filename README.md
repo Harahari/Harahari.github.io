@@ -224,7 +224,7 @@ the society.</p>
 <p>Received sum of INR 15,162 ($ 227.43) as a financial aid for presenting
 research paper on Nonlinear Dynamics at an International Conference conducted by IEEE. The fund included
 circumnavigation, registration fee & other expenses.</p>
-<a href="https://example.com/grant-details" target="_blank" class="btn">Read More</a>
+<a href=" https://mega.nz/file/82YR1YQR#rjJ8ph44TGeauKkFiN_NpFWVUds1spR_o98P9ivTKH4 " target="_blank" class="btn">University Research Grant </a>
 </div>
             <div class="item">
     <h3>Rajasthan Administrative Service Grants </h3>
