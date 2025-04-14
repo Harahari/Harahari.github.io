@@ -270,7 +270,7 @@ circumnavigation, registration fee & other expenses.</p>
                     <p>The long-term sustainability of the project is ensured through the establishment of a dedicated maintenance fund managed via a post office account and overseen by the Village Water Committee. By bridging micro and macro developmental gaps, this initiative promises generational benefits, setting a scalable model for rural water infrastructure that can be replicated across multiple villages.</p>
 <p>Ultimately, the project exemplifies a nuanced, holistic approach to rural development—one that respects local traditions, leverages technological solutions, and empowers communities to take charge of their critical infrastructure and health outcomes.</p>
                     <div class="project-links">
-                        <a href="https://example.com/project" target="_blank" class="btn">View Project</a>
+                        <a href="https://mega.nz/file/IvxBWb4I#_-mwpUa1_929HEj8Rl0uZGBIoRWO3ZgQFWiG8cW4TX4" target="_blank" class="btn">Project completion certificate</a>
                         <a href="https://github.com/akhilkrishnan/project-code" target="_blank" class="btn">View Source Code</a>
                         <a href="https://mega.nz/file/Z3Z1DAbD#DljdHC-U0nu5R2DYb6a05oA17I0sL21xWAoMatlvDVU" target="_blank" class="btn">View Press Releases - PDF</a>
                         <a href="https://www.instagram.com/p/Cy-WsaRybUn/?utm_source=ig_web_copy_link" class="btn"> Social Media plateform - The Barefoot College (Instagram page)</a>
