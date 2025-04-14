@@ -188,7 +188,7 @@
             <p>Below are some of the certifications I have earned:</p>
             <div class="item">
                 <h3>TRIZ Level-1 </h3>
-                <a href="https://example.com/certification" target="_blank" class="btn">View Certification</a>
+                <a href="https://example.com/certification" target="_blank" class="btn">View Level-1 Certification</a>
             </div>
         </section>
         <section id="scholastic-accolades">
