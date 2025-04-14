@@ -217,7 +217,7 @@ systems, Bioinformatics for Engineers and sustainable development courses for ex
  <p>At time of a national emergency, the certificate holder has a basic
 understanding of disaster management and field operations and can be a valuable volunteer for the benefit of
 the society.</p>
-    <a href="https://example.com/grant-details" target="_blank" class="btn">Read More</a>
+    <a href="https://bit.ly/GlobalDigitalCorpsFieldOpsFellowship" target="_blank" class="btn">View Certificate</a>
             </div>
 <div class="item">
 <h3>Manipal University Research Grant</h3> 
